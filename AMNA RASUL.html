@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/index.html#contacto1 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AMNA RASUL</title>
+    
+<link rel="stylesheet" href="./AMNA RASUL_files/style.css"><link rel="icon" href="./AMNA RASUL_files/logo_king copia.png"><link rel="stylesheet" type="text/css" href="chrome-extension://neonnmencpneifkhlmhmfhfiklgjmloi/pesticide.min.css?_cacheOverride=1708347109354" id="pesticideCSS"></head>
+<body>
+    <header>
+        <img id="logo" src="./AMNA RASUL_files/logo_king copia.png" alt="logo de corona" width="100">
+      <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html#inicio">Inicio</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#biograf%C3%ADa">Sobre mí biografía</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#recientes">Mis trabajos mís recientes</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#galeria1">Galeria</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#contacto1">Contacto</a></li>
+        </ul>
+      </nav>
+    <ul>
+        <li id="instagram"><a href="https://www.instagram.com/kingsdeaf/"><img src="./AMNA RASUL_files/instagram_logo_icon_214683.png" width="40" alt="icono de instagram"></a></li>
+    </ul>
+    </header>
+    <main>
+   
+    <div>
+        <h1 id="amna">AMNA RASUL</h1>
+
+        <img id="recta" src="./AMNA RASUL_files/Fondo_recta.png" alt="imagen de fondo gris oscuro" class="banner">
+        
+        <p id="modelo">Modelo</p>
+        <p id="manchester">Manchester, UK</p>
+        <img id="fotoamna" src="./AMNA RASUL_files/2amna.png" alt="Imagen de Amna Rasul con camiseta negra" width="500">
+    </div>
+        <h2 id="biografía">Sobre mí biografía</h2>
+        <p>Nacido en Barcelona y sorda de nacimiento, su idioma es la lengua de signos Cataluya.
+            
+         Modelo desde pequeño, se inició en pasarela de moda realizando algunos papeles en cortometrajes dirigidos al colectivo de personas sordas en diferentes festivales y con el tiempo empezó a protagonizar spots para diferentes entidades.
+        </p>
+        <nav>
+            <h2>CURRICULUM</h2>
+            <a href="http://127.0.0.1:5500/Curriculum/CV.jpg"><img src="./AMNA RASUL_files/Ver curriculum.png" width="100" alt="icono de Curriculum"></a>
+            
+            <h2>VIDEOBOOK</h2>
+            <a href="http://127.0.0.1:5500/Videobook/My%20Video.mp4"><img src="./AMNA RASUL_files/Ver videobook.png" width="100" alt=""></a>
+        </nav>
+<section>
+    <h2 id="galeria1">Galeria</h2>
+        <img src="./AMNA RASUL_files/4amna.png" alt="Foto de Amna con gafas y camisa polo" width="400">
+        <img src="./AMNA RASUL_files/3amna.png" alt="Foto de Amna con camisa negro" width="300">
+        <img src="./AMNA RASUL_files/7amna.png" alt="foto de ropa desportiva" width="300">
+        <img src="./AMNA RASUL_files/1amna.png" alt="foto sin ropa" width="300">
+
+        <h2 id="recientes">Mis trabajos más recientes</h2>
+        <img src="./AMNA RASUL_files/6amna.png" alt="Foto de Amna con camisa polo y pantalon negro" width="300">
+        <img src="./AMNA RASUL_files/5amna.png" alt="Foto de Amna con camisa polo y pantalon negro" width="300">
+</section>
+    </main>
+
+    <footer>
+        <h2 id="contacto1">Contacto</h2>
+        <p>Los campos marcados con asterisco (*) son obligatorios.</p>
+        <h3></h3>
+        <form action="http://127.0.0.1:5500/index.html">
+            <label for="nombreyapellidos">Nombre y apellidos*
+                <input type="text" id="nombreyapellidos">
+            </label>
+        <label for="correoelectonico">Correo electrónico*
+            <input type="text" id="correoelectronico">
+        </label>
+        <label for="asunto">Asunto*
+            <input type="text" id="asunto">
+        </label>
+        <label for="mensaje">Mensaje*
+            <input type="text" id="mensaje">
+        </label>
+        <span>Enviar</span>
+    </form>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

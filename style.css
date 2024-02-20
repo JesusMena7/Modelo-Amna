@@ -1,0 +1,123 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+header{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    position: absolute;
+}
+li {
+    display:inline;
+    margin: 0 5px;
+}
+#logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#inicio{
+    position:absolute;
+    top: 80px;
+    left: 280px;
+    font-size: 15px;
+}
+#sobre{
+    position:absolute;
+    top: 80px;
+    left: 380px;
+    font-size: 15px;
+}
+#mistrabajos{
+    position:absolute;
+    top: 80px;
+    left: 570px;
+    font-size: 15px;
+}
+#galeria{
+    position:absolute;
+    top: 80px;
+    left: 810px;
+    font-size: 15px;
+}
+
+#instagram{
+        position:absolute;
+       right: 20px;
+       top: 40px;
+}
+#amna{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    font-size: 70px;
+}
+h1{
+    color: white;
+}
+#modelo{
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    font-size: 20px;
+    color: aqua;
+}
+#manchester{
+    position: absolute;
+    top:530px;
+    left: 30px;
+    font-size: 20px;
+    color: aqua;
+}
+#fotoamna{
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+nav{
+    height: 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 300px;
+}
+body{
+    background-color: rgb(163, 250, 219);
+    display: flex;
+    flex-direction: column;
+}
+#galeria1{
+    height: 140px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#contacto{
+    width: 250px;
+    height: 320px;
+    object-fit: cover;
+}
